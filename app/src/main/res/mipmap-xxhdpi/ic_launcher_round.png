@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9c11578-e4c6-46db-a163-f8173f7e6b8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/icons/icon_buyer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ProductBuyerScreen/ProductBuyerHomeScreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ProductBuyerScreen/ProductBuyerNavigationDrawer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presenters/BuyerLoginPresenter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presenters/ProductPurchaseListPresenter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/responses/BuyerLoginResponse.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/responses/ProductListResponse.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/responses/ProductPurchaseListResponse.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presenters/GetUsersPresenter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presenters/GetUsersPresenter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/ActiveUsersScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/ActiveUsersScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/InActiveUsersScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/InActiveUsersScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/LoginScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/LoginScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/SplashScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/SplashScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_30" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1foC8VQFt5MgdlnYEPPBkctrCJB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="E:/Android apk/Pune agro/13-Aug-2020/PuneAgro_Signed_13_Aug-2020.apk" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/presenters" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.etonius.flutter_puneagro_admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AndroidProjectsWorkspace\flutter_puneagro_admin\lib\presenters" />
+      <recent name="E:\AndroidProjectsWorkspace\flutter_puneagro_admin\assets\icons" />
+      <recent name="E:\AndroidProjectsWorkspace\flutter_puneagro_admin\lib\screens" />
+      <recent name="E:\AndroidProjectsWorkspace\flutter_puneagro_admin\lib\responses" />
+      <recent name="E:\AndroidProjectsWorkspace\flutter_puneagro_admin\lib\services" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9c11578-e4c6-46db-a163-f8173f7e6b8b" name="Default Changelist" comment="" />
+      <created>1596874899370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596874899370</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="444" y="6" key="#com.intellij.ide.util.MemberChooser" timestamp="1600671481345">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="444" y="6" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600671481345" />
+    <state x="501" y="246" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1597318780153">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="501" y="246" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1597318780153" />
+    <state x="350" y="52" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597321909681">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="52" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597321909681" />
+    <state width="610" height="546" key="DebuggerActiveHint" timestamp="1601556869067">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="610" height="546" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1601556869067" />
+    <state x="100" y="100" width="1166" height="528" key="DiffContextDialog" timestamp="1597421635023">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="100" y="100" width="1166" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1597421635023" />
+    <state x="413" y="45" key="FileChooserDialogImpl" timestamp="1597823157225">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="45" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597823157225" />
+    <state width="1309" height="217" key="GridCell.Tab.0.bottom" timestamp="1601964060601">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1309" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601964060601" />
+    <state width="1309" height="217" key="GridCell.Tab.0.center" timestamp="1601964060601">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1309" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601964060601" />
+    <state width="1309" height="217" key="GridCell.Tab.0.left" timestamp="1601964060601">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1309" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601964060601" />
+    <state width="1309" height="217" key="GridCell.Tab.0.right" timestamp="1601964060601">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1309" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601964060601" />
+    <state x="163" y="47" key="IDE.errors.dialog" timestamp="1600690708949">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="47" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1600690708949" />
+    <state x="75" y="0" key="SettingsEditor" timestamp="1599472166753">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="75" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599472166753" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1601556792483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1601556792483" />
+    <state x="100" y="100" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600162448596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="100" y="100" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1600162448596" />
+    <state x="628" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1601522536995">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="628" y="146" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601522536995" />
+    <state x="123" y="39" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600423444571">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="123" y="39" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1600423444571" />
+    <state x="401" y="0" width="887" height="728" key="find.popup" timestamp="1601895170806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="401" y="0" width="887" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601895170806" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1598503925379">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598503925379" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint suspend="THREAD" type="dart-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

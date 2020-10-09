@@ -1,0 +1,105 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_puneagro_admin/responses/ProductPurchaseListResponse.dart';
+import 'package:flutter_puneagro_admin/utils/Constants.dart';
+import 'package:flutter_puneagro_admin/utils/Utilities.dart';
+import 'package:flutter_puneagro_admin/views/CommonView.dart';
+import 'package:intl/intl.dart';
+
+import 'ProductBuyerNavigationDrawer.dart';
+
+class ProductBuyerHomeScreen extends StatefulWidget {
+  @override
+  _ProductBuyerHomeScreenState createState() => _ProductBuyerHomeScreenState();
+}
+
+class _ProductBuyerHomeScreenState extends State<ProductBuyerHomeScreen> {
+  bool isLoading = false;
+  var productList = new List<PurchaseProducts>();
+  DateTime selectedDate;
+  String selectedPurchaseDate;
+  var myFormat = DateFormat('yyyy-MM-dd');
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: backgroundColor,
+      appBar: AppBar(
+        backgroundColor: primaryColor,
+        title: Text('Purchased Products'),
+      ),
+      body: Stack(
+        children: [
+          _productPurchasedBody(context),
+          isLoading ? getCircleIndicator() : Container()
+        ],
+      ),
+      drawer: ProductBuyerNavigationDrawer(),
+    );
+  }
+
+  _productPurchasedBody(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.all(15.0),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'Select Purchased Date',
+            style: TextStyle(
+              fontSize: 18.0,
+              color: profileTextColor,
+              decoration: TextDecoration.underline,
+            ),
+          ),
+          InkWell(
+            onTap: () {
+              _selectDate(context);
+            },
+            child: Theme(
+              data: ThemeData(primarySwatch: Colors.red),
+              child: Container(
+                width: double.infinity,
+                padding: EdgeInsets.only(
+                    top: 15.0, bottom: 15.0, left: 20.0, right: 20.0),
+                margin: EdgeInsets.only(top: 10.0, bottom: 20.0),
+                decoration: new BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: lightShadowColor,
+                      blurRadius: 9,
+                    )
+                  ],
+                  color: Colors.white,
+                  borderRadius: new BorderRadius.all(
+                    Radius.circular(8.0),
+                  ),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Icon(
+                      Icons.calendar_today,
+                      color: primaryColor,
+                    ),
+                    SizedBox(
+                      width: 20.0,
+                    ),
+                    Text(
+                      Utilities.isEmpty(selectedPurchaseDate)
+                          ? 'Purchase Date'
+                          : selectedPurchaseDate,
+                      style: TextStyle(
+                        fontSize: 16.0,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Utilities.isListEmpty(productList)
+              ? Container()
+              : Expanded(
+                  chil
